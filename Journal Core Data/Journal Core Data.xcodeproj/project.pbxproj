@@ -17,6 +17,7 @@
 		6349D7B423318C4E00F4A662 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349D7B323318C4E00F4A662 /* CoreDataStack.swift */; };
 		6349D7BC23318E6900F4A662 /* Entry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6349D7BA23318E6900F4A662 /* Entry.xcdatamodeld */; };
 		6349D7BE23318ED100F4A662 /* Entry+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349D7BD23318ED100F4A662 /* Entry+Convenience.swift */; };
+		6349D7F123336DD200F4A662 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6349D7F023336DD200F4A662 /* EntryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6349D7B323318C4E00F4A662 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		6349D7BB23318E6900F4A662 /* Entry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Entry.xcdatamodel; sourceTree = "<group>"; };
 		6349D7BD23318ED100F4A662 /* Entry+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+Convenience.swift"; sourceTree = "<group>"; };
+		6349D7F023336DD200F4A662 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,6 @@
 				6349D79723317CE000F4A662 /* AppDelegate.swift */,
 				6349D7B623318CA700F4A662 /* Model */,
 				6349D7B523318C7400F4A662 /* View Controllers */,
-				6349D7AD233180F900F4A662 /* EntryTableViewCell.swift */,
 				6349D79B23317CE000F4A662 /* Main.storyboard */,
 				6349D79E23317CE100F4A662 /* Assets.xcassets */,
 				6349D7A023317CE100F4A662 /* LaunchScreen.storyboard */,
@@ -79,6 +80,8 @@
 		6349D7B523318C7400F4A662 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6349D7AD233180F900F4A662 /* EntryTableViewCell.swift */,
+				6349D7F023336DD200F4A662 /* EntryController.swift */,
 				6349D7B12331896F00F4A662 /* EntryDetailViewController.swift */,
 				6349D7AB233180AC00F4A662 /* EntriesTableViewController.swift */,
 			);
@@ -172,6 +175,7 @@
 				6349D7B423318C4E00F4A662 /* CoreDataStack.swift in Sources */,
 				6349D7B22331896F00F4A662 /* EntryDetailViewController.swift in Sources */,
 				6349D79823317CE000F4A662 /* AppDelegate.swift in Sources */,
+				6349D7F123336DD200F4A662 /* EntryController.swift in Sources */,
 				6349D7BE23318ED100F4A662 /* Entry+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
